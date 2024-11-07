@@ -4,12 +4,12 @@ Implementation codes and datasets for the paper "Learning from Clutter: An Unsup
 
 2. For the CUT model adopted for clutter estimation in stage 2, we used the codes at https://github.com/taesungp/contrastive-unpaired-translation. Get into the folder "Stage2_CUT" and run the following commands:
 
-python train.py \
---dataroot ./dataset \
---name dataset \
---model cut \
---preprocess none \
---n_epochs 200 \
---n_epochs_decay 200 \
---load_size 128 \
---crop_size 128
+    python train.py \
+    --dataroot ./dataset \
+    --name dataset \
+    --model cut \
+    --preprocess none \
+    --n_epochs 200 \
+    --n_epochs_decay 200 \
+    --load_size 128 \
+    --crop_size 128
