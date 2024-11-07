@@ -2,9 +2,9 @@ Implementation codes and datasets for the paper "Learning from Clutter: An Unsup
 
 1. For the diffusion model used for data augmentation in Stage 1, we refer to the usage at https://github.com/lucidrains/denoising-diffusion-pytorch. Get into our folder "Stage1_Diffusion" and run "python train.py".
 
-2. For the CUT model adopted for clutter estimation in stage 2, we used the codes at https://github.com/taesungp/contrastive-unpaired-translation. Get into our folder "Stage2_CUT" and run the following commands for training:
+2. For the CUT model adopted for clutter estimation in stage 2, we used the codes at https://github.com/taesungp/contrastive-unpaired-translation. Get into our folder "Stage2_CUT" and run the following
 
-the commands for training:
+commands for training:
 
     python train.py \
     --dataroot ./dataset_name \
@@ -16,7 +16,7 @@ the commands for training:
     --load_size 128 \
     --crop_size 128
 
-and the commands for testing:
+and commands for testing:
 
     python test.py \
     --dataroot ./dataset_name \
