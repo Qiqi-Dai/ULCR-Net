@@ -22,6 +22,6 @@ and commands for testing:
     --dataroot ./dataset_name \
     --name dataset_name \
     --CUT_mode CUT \
-    --num_test 24 \
+    --num_test 10 \
     --phase test
 
