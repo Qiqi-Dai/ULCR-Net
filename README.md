@@ -1,4 +1,4 @@
-Implementation codes and datasets for the paper "Learning from Clutter: An Unsupervised Learning-Based Clutter Removal Scheme for GPR B-Scans" at 10.1109/JSTARS.2024.3486535. 
+Implementation codes and datasets for the paper "Learning from Clutter: An Unsupervised Learning-Based Clutter Removal Scheme for GPR B-Scans" at http://dx.doi.org/10.1109/JSTARS.2024.3486535. 
 
 1. The simulation and real measurement data will be uploaded at https://drive.google.com/drive/folders/1s_C7Cfp5XlbWF-MjW1z0XIaiq-zpNltN?usp=sharing. 
 2. For the diffusion model used for data augmentation in Stage 1, we refer to the usage at https://github.com/lucidrains/denoising-diffusion-pytorch. Get into our folder "Stage1_Diffusion" and run "python train.py".
