@@ -25,8 +25,8 @@ model = Unet(
 diffusion = GaussianDiffusion(
     model,
     image_size = Image_size,
-    timesteps = 1000,   
-    loss_type = 'l1'   # l1 or l2
+    timesteps = 1000   
+    # loss_type = 'l1'   # l1 or l2
 ).cuda()
 
 #### Traning
