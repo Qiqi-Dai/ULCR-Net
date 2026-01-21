@@ -26,5 +26,5 @@ commands for testing:
     --num_test 10 \
     --phase test
 
-4. If any issues, pls contact daiq0004@e.ntu.edu.sg.
+4. If any problems, pls release them in Issues.
 
